@@ -5,25 +5,33 @@
         <title>Snizhana's blog</title>
     </head>
     <body>
-        <div>
-            <h1>Achieving Your Goals</h1>
-        </div>
+         <div>
+              <h1><a href="/">Achieving Your Goals</a></h1>
+         </div>
 
-        <div>
-            <h2>Start Small For Achieving Goals</h2>
-            <p>Choose small, easily achievable goals. Quitting coffee for one single day a week; or waking up 30 minutes earlier than normal each day. Once you've built a habit of setting and achieving small goals, you'll be mentally focused and ready to tackle bigger obstacles like a career change or getting into shape.</p>
-            <p>It works!</p>
-        </div>
+         {% for post in posts %}
+         <div>
+             <p>published: {{ post.published_date }}</p>
+             <h1><a href="">{{ post.title }}</a></h1>
+             <p>{{ post.text|linebreaksbr }}</p>
+         </div>
+{        {% endfor %}
 
-        <div>
-            <h2>Find Your Life’s Purpose</h2>
-            <p>It's important when deciding your major goals that they align with your life purpose. If you fail to do this, then your goals won't have meaning and it will be difficult to stay consistent.</p>
-        </div>
-        
-        <div>
-            <h2>Set a Specific Date</h2>
-            <p>Set a specific date when you want to achieve your long-term goals. You don't need to achieve your goals on an arbitrary day, but you must create meaningful deadlines so you feel obligated to work hard every day.</p>
-        </div>
+<!--        <div>-->
+<!--            <h2>Start Small For Achieving Goals</h2>-->
+<!--            <p>Choose small, easily achievable goals. Quitting coffee for one single day a week; or waking up 30 minutes earlier than normal each day. Once you've built a habit of setting and achieving small goals, you'll be mentally focused and ready to tackle bigger obstacles like a career change or getting into shape.</p>-->
+<!--            <p>It works!</p>-->
+<!--        </div>-->
+
+<!--        <div>-->
+<!--            <h2>Find Your Life’s Purpose</h2>-->
+<!--            <p>It's important when deciding your major goals that they align with your life purpose. If you fail to do this, then your goals won't have meaning and it will be difficult to stay consistent.</p>-->
+<!--        </div>-->
+
+<!--        <div>-->
+<!--            <h2>Set a Specific Date</h2>-->
+<!--            <p>Set a specific date when you want to achieve your long-term goals. You don't need to achieve your goals on an arbitrary day, but you must create meaningful deadlines so you feel obligated to work hard every day.</p>-->
+<!--        </div>-->
 
     </body>
 </html>
