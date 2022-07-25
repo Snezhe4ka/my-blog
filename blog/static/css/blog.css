@@ -1,0 +1,54 @@
+h1 a {
+    color: #81B9FB;
+    font-family: 'Rampart One', cursive;
+}
+body {
+    padding-left: 15px;
+}
+.page-header {
+    background-color: #614E9F;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: #81B9FB;
+    font-size: 36pt;
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 40px;
+    color: #14114C;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Rampart One, cursive;
+}
+
+.date {
+    color: #81B9FB;
+}
+
+.save {
+    float: right;
+}
+
+.post-form textarea, .post-form input {
+    width: 100%;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #81B9FB;
+    float: right;
+    font-size: 26pt;
+    margin-right: 10px;
+}
+
+.post {
+    margin-bottom: 80px;
+}
+
+.post h1 a, .post h1 a:visited {
+    color: #81B9FB;
+}
