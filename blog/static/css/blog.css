@@ -1,9 +1,13 @@
+html {
+    background-color: #B6D1E2;
+}
 h1 a {
     color: #81B9FB;
-    font-family: 'Rampart One', cursive;
+    font-family: 'MiamaNuevaMedium', italic;
 }
 body {
     padding-left: 15px;
+    background-color: #B6D1E2;
 }
 .page-header {
     background-color: #614E9F;
@@ -14,17 +18,28 @@ body {
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #81B9FB;
     font-size: 36pt;
+    font-family: 'MiamaNuevaMedium';
+    font-style: italic;
     text-decoration: none;
 }
 
 .content {
     margin-left: 40px;
     color: #14114C;
+    background: #B6D1E2;
+
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Rampart One, cursive;
+   font-family: 'MiamaNuevaMedium';
+   font-weight: normal;
+   font-style: italic;
 }
+
+p {
+   font-family: 'MiamaNuevaMedium';
+   font-weight: normal;
+   font-style: italic;
 
 .date {
     color: #81B9FB;
