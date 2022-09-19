@@ -9,6 +9,7 @@ class Post(models.Model):
     text = models.TextField()
     created_date = models.DateTimeField(default=timezone.now)
     published_date = models.DateTimeField(blank=True, null=True)
+    category = models.ForeignKey('Category', on_delete=models.PROTECT, null=True, verbose_name='Category')
 
     def approved_comments(self):
         return self.comments.filter(approved_comment=True)
@@ -23,6 +24,16 @@ class Post(models.Model):
     def __str__(self):
         return self.title
 
+class Category(models.Model):
+    title = models.CharField(max_length=150, db_index=True, verbose_name='Category name')
+
+    def __str__(self):
+        return self.title
+
+    class Meta:
+        verbose_name = 'Category'
+        verbose_name_plural = 'Categories'
+        ordering = ['title']
 
 class Comment(models.Model):
     post = models.ForeignKey('blog.Post', on_delete=models.CASCADE, related_name='comments')

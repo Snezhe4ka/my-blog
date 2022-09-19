@@ -4,7 +4,9 @@ html {
 }
 h1 a {
     color: #81B9FB;
-    font-family: 'MiamaNuevaMedium', italic;
+    font-family: 'DejaVuSansCondensed';
+    font-weight: normal;
+    font-style: normal;
 }
 body {
     padding-left: 15px;
@@ -19,8 +21,9 @@ body {
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #81B9FB;
     font-size: 36pt;
-    font-family: 'MiamaNuevaMedium';
-    font-style: italic;
+    font-family: 'DejaVuSansCondensed';
+    font-weight: normal;
+    font-style: normal;
     text-decoration: none;
 }
 
@@ -30,15 +33,15 @@ body {
 }
 
 h1, h2, h3, h4 {
-   font-family: 'MiamaNuevaMedium';
+   font-family: 'DejaVuSansCondensed';
    font-weight: normal;
-   font-style: italic;
+   font-style: normal;
 }
 
 p {
-   font-family: 'MiamaNuevaMedium';
+   font-family: 'DejaVuSansCondensed';
    font-weight: normal;
-   font-style: italic;
+   font-style: normal;
 }
 
 
@@ -63,9 +66,9 @@ p {
 
 .post {
     margin-bottom: 100px;
-    font-family: 'MiamaNuevaMedium';
+    font-family: 'DejaVuSansCondensed';
     font-weight: normal;
-    font-style: italic;
+    font-style: normal;
     font-size: 16pt;
 }
 
