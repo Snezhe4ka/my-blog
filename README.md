@@ -2,7 +2,8 @@
 
 This is a Django based blog.
 
-<img width="974" alt="Screenshot 2022-08-28 at 17 02 30" src="https://user-images.githubusercontent.com/91755007/187080820-c5c0b10e-6dd7-48da-81c8-149fbe454227.png">
+
+<img width="1100" alt="Screenshot 2022-09-19 at 11 59 13" src="https://user-images.githubusercontent.com/91755007/190995642-54eae278-794b-43d3-8eaf-17ba5408d475.png">
 
 
 
